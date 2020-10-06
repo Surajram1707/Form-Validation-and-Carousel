@@ -1,0 +1,92 @@
+.boxed{
+  border: 5px solid purple;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+.btnn{
+  border:3px solid black;
+  background-color:orange;
+  text-align:center;
+  font-weight: 900;
+  width: 150px;
+  height: 50px;
+
+
+}
+.buttn{
+  border:3px solid black;
+  background-color:orange;
+  text-align:center;
+  font-weight: 900;
+  width: 150px;
+  height: 50px;
+  outline: none !important;
+
+  border-radius: 40px;
+  opacity: 0.8;
+
+
+}
+body {
+
+  background-image: url("https://images.unsplash.com/photo-1595077387858-9365a6379cb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1083&q=80");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+p{
+    font-size: 50px;
+}
+
+form{
+  background:url("https://lh3.googleusercontent.com/proxy/QiITdqqroaE0mxFA4xgQCjL44LR0I631Dq5Yf0eJoLHQnwl9IQu5A6IJUNJeKiFc3GKTWDYiDAUvF5_S7nCkoFka-oYtHe5Kww8ZKeSQgF8jppqibHVnkZX1HqmrcbFGqgp6XITh");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position:center;
+  border: 3px solid black;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: inherit;
+  width: 500px;
+  color: black;
+  font-weight:900;
+  opacity: 0.8;
+    font-size: 15px;
+  outline: none;
+}
+input{
+  border-radius: 30px;
+  align-items: center;
+  outline: none;
+  text-align:center;
+}
+table{
+  outline: none !important;
+  border: none !important;
+}
+.bolde{
+  color: black;
+  font-weight: 900;
+}
+*{
+  font-family: 'Fondamento', cursive;
+}
+
+.fl{
+  border: 2px solid black;
+  float: left;
+  font-size: 15px;
+  background-color: white;
+  position: sticky;
+  top:0;
+  opacity: 0.8;
+  height: inherit;
+  width: 300px;
+  color: black;
+  font-weight: bolder;
+  border-radius: 40px;
+}

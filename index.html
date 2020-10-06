@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Surajram.S UI Assignment 2</title>
+     <link rel="shortcut icon" href="" type="image/x-icon">
+     <link rel="stylesheet" type="text/css" href="style.css"/>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Hello!!!! \n \n This is the AJAX Component");
+  });
+});
+</script>
+     <br>
+   </head>
+  <body>
+    <center>
+<div class="fl">
+  <i>
+    Surajram.S<br />
+    3<sup>rd</sup>year 5<sup>th</sup> Semester CSE C Section<br />
+    Reg no: 180501154<br />
+    Roll no: 154<br />
+    UI Assignment - 2<br />
+  </i>
+</div>
+      <p><b><i><u>User Registration Form</u></i></b></p>
+
+    <form   name = "myForm" >
+      <br /><br />
+         <table cellspacing = "2" cellpadding = "2" border = "1" rules="none">
+
+            <tr>
+               <td align = "right">Name:</td>
+               <td><input type = "text" name = "Name" onkeypress="return/[A-Za-z]/.test(event.key)" required/></td>
+            </tr>
+
+            <tr>
+               <td align = "right">Age:</td>
+               <td><input type = "text" name = "Age" onkeypress="return/[0-9]/.test(event.key)" required/></td>
+            </tr>
+
+
+            <tr>
+               <td align = "right">E-mail-ID:</td>
+               <td><input type = "text" name = "EMail" required/></td>
+            </tr>
+
+
+            <tr>
+               <td align = "right">Mobile Number:</td>
+               <td><input type = "number" name = "mobile" onkeypress="return/[0-9]/.test(event.key)" required/></td>
+            </tr>
+
+            <tr>
+               <td align = "right">Date of Birth:</td>
+               <td><input type = "date" name = "Date" required/><br /></td>
+
+            </tr>
+
+            <tr>
+               <td align = "right"></td>
+               <td><input id="sub" type = "button" value = "Submit" class="btnn" onclick= "return(validate());"/></td>
+
+           </tr>
+           <tr>
+               <td align = "right"></td>
+               <td><input id="ref" type = "button" value = "Add New Item" class="btnn" onclick="ref1()"/></td>
+               <script>
+                 function ref1(){
+                    location.reload();
+                 }
+               </script>
+            </tr>
+
+         </table>
+         <br /><br />
+      </form>
+<br /><br />
+<button class="buttn">Click to get AJAX alert</button>
+<br /><br />
+      <hr /><hr />
+
+ <br /><br />
+ <p><b><i><u>My Monument Carousel</u></i></b></p>
+ <div class="rr">
+ <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" method="post">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="bolde">The Taj Mahal</p>
+
+      </div>
+      <img src="https://i2.wp.com/blog.forumias.com/wp-content/uploads/2018/11/Taj-Mahal.jpg?fit=1002%2C578&ssl=1" class="rounded-pill" alt="..." width="700px">
+
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="bolde">The India Gate</p>
+      </div>
+      <img src="https://cdn.cdnparenting.com/articles/2019/02/12152000/1043536546-H-1024x700.jpg" class="rounded-pill" alt="..." width="700px">
+
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="bolde">The Red Fort</p>
+        </div>
+      <img src="https://static.toiimg.com/photo/65666850/redfort1.jpg?width=748&resize=4" class="rounded-pill" alt="..." width="700px">
+
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<br /><br />
+</center>
+  </body>
+</html>
